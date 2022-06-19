@@ -1,5 +1,66 @@
+body{
+    padding: 0 6rem;
+}
+
+.top_main {
+    padding: 1rem 1rem 1rem 1rem;
+}
+
 h1 {
     color: #50C878;
+    padding-bottom: 2rem;
+    font-size: xx-large;
+    font-weight: 800;
 
 }
 
+#top_menu_list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: large;
+    font-weight: 800;
+
+}
+
+.body_intro {
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#section_div_1 {
+    border-right: 1px solid black;
+    width: 40%;
+    text-align: center;
+}
+#section_div_2 {
+    width: 60%;
+    text-align: center;
+
+}
+
+#who_is_list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Nanum Brush Script', cursive;
+    font-size: xx-large;
+}
+
+.bottom_space{
+    background-color: #ace0be ;
+    height: 100px;
+    text-align: center;
+    color: rgb(122, 97, 97);
+    padding-top: 70px;
+
+}
+
+#bible_verse {
+    padding: 2rem 3rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
