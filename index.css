@@ -64,3 +64,16 @@ h1 {
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
 }
+
+table {
+    width: 120px;
+    height: 120px;
+}
+tr{
+    width: 20px;
+    height: 20px;
+}
+
+.Q {
+    background-color: black;
+}
